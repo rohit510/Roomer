@@ -1,0 +1,51 @@
+.top_header{
+    height: 10vh;
+    display: flex;
+    background-color: beige;
+    
+}
+
+.chats{
+    background-color: beige;
+    align-items: center;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 57vw;
+}
+
+.chats::-webkit-scrollbar{
+    display: none;
+}
+
+.top_header_right{
+    display: flex;
+    align-items: center;
+    min-width: max-content;
+    position:absolute;
+    right: 0;
+    
+
+}
+
+.search{
+    background: white;
+    height: 5.5vh;
+    border-radius: 12px;
+    padding-left: 0.5vw;
+    width: 20vw;
+    
+}
+
+#search_box{
+    margin: 0.5vw;
+}
+
+.header_chats{
+    border: solid 1px black;
+    border-radius: 30px;
+    height: 6vh;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}

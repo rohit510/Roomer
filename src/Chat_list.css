@@ -1,0 +1,30 @@
+.header_chats{
+    border: solid 1px black;
+    border-radius: 30px;
+    height: 6vh;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 1vw;
+    background-color: snowz
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.links:hover{
+    color: black;
+    font-weight: bold;
+    font-style: unset;
+}
+
+.links:active{
+    
+}
+.link:link{
+    color:black
+}

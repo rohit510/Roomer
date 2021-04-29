@@ -1,0 +1,36 @@
+.sidebar{
+   /* border: solid 1px grey;*/
+    flex: 0.30;
+    background-color: rgb(240, 240, 217);
+    border-right: solid 1px white;
+}
+
+.header{
+    /*border: solid 0.5px black;
+    height: 45px;*/
+    padding: 5px;
+    margin: 1px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.search{
+    /*border: solid 0.5px black;*/
+    border-radius: 5px;
+    height: 5vh;
+    margin: 6px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+#search_box{
+    border:none;
+    outline: none;
+    width: 100%;
+}
+
+.chats{
+    background-color: rgb(201, 201, 201);
+}

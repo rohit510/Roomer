@@ -1,0 +1,108 @@
+.chat_area{
+    height: 87vh;
+    background-color: beige;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chat_header{
+    height: 8vh;
+    /*border: solid 1px black;*/
+    background-color: #535B99;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: solid 1px lightgrey;
+}
+
+.user_display{
+    flex: 1; 
+    padding: 10px;  
+}
+
+#chat_name{
+    margin-bottom: -17px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
+
+.chat_box{
+    /*border: solid 0.5px grey;*/
+    height: 67vh;
+    margin: 2px;
+    overflow: auto;
+    padding: 15px;
+    
+}
+
+.chat_box::-webkit-scrollbar{
+    background-color: white;
+    width: 8px;
+    position: sticky;
+    bottom: 0;
+}
+
+.chat_box::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+}
+
+.chat_box::-webkit-scrollbar-thumb {
+    background-color: #535B99;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    
+}
+
+.msg_chat_name{
+    position: absolute;
+    top: -15px;
+    font-size: small;
+    font-weight: 800;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.chat_msg{
+    position: relative;
+    background-color: #535B99;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.chat_mine{
+    margin-left: auto;
+    background-color: white;
+    color: black;
+
+}
+.chat_time{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+.text_box{
+    /*border: solid 0.5px grey;*/
+    height: 8vh;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    margin: 6px;
+    justify-content: space-between;
+}
+
+#text_area{
+    border: none;
+    outline: none;
+    flex: 1;
+    margin: 2px;
+    border-radius: inherit;
+    background-color:white;
+}

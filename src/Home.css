@@ -1,0 +1,38 @@
+
+.home{
+    height: 97vh;
+    background-color: #fff5bf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+
+}
+
+.btns{
+    margin-top: 1%;
+}
+
+#h1{
+    font-size: 7vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #535B99;
+    margin-top: 5%;
+}
+
+.btn{
+    width: 20vw;
+    margin: 10vw;
+    height: 8vh;
+    border-radius: 5px  ;
+    padding: 3px 6px;
+    border: none;
+    background-color: #535B99;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
